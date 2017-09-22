@@ -1,4 +1,4 @@
-package com.dorin.patterns.creational.factorymethod;
+package com.dorin.patterns.creational.factorymethod.currencies;
 
 public class Dollar extends Currency {
     @Override
