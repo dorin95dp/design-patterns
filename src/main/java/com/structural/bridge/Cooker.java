@@ -14,4 +14,12 @@ public abstract class Cooker {
     public void cook() {
         cookingAction.cook(name);
     }
+
+    public void setCookingAction(CookingAction cookingAction) {
+        this.cookingAction = cookingAction;
+    }
+
+    public CookingAction getCookingAction() {
+        return cookingAction;
+    }
 }

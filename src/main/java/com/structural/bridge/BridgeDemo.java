@@ -9,7 +9,7 @@ public class BridgeDemo {
         Cooker cooker2 = new SimpleCooker("Jora", new CookPizza());
 
         cooker1.cookingAction = new CookPizza();
-
+        
         cooker1.cook();
         cooker2.cook();
     }
