@@ -1,5 +1,7 @@
 package com.structural.bridge;
 
+import com.structural.bridge.cookingActions.CookingAction;
+
 public abstract class Cooker {
     private String name;
     protected CookingAction cookingAction;
