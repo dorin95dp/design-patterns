@@ -6,8 +6,7 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-
-public class MessageTest {
+public class BridgeTest {
 
     @Test
     public void testGetContent() {

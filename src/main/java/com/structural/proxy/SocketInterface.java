@@ -1,6 +1,6 @@
 package com.structural.proxy;
 
-interface SocketInterface {
+public interface SocketInterface {
     String readLine();
 
     void writeLine(String str);

@@ -10,12 +10,12 @@ public class ProxyDemo {
 
         SocketInterface socket = new SocketProxy("127.0.0.1", 8080, isServer);
         String str;
-        boolean skip = true;
+        boolean executeReceiving = true;
 
         boolean isStopped = false;
         while (!isStopped) {
-            if (!isServer && skip) {
-                skip = !skip;
+            if (!isServer && executeReceiving) {
+                executeReceiving = false;
             } else {
                 str = socket.readLine();
                 System.out.println("Receive - " + str);

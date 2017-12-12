@@ -1,6 +1,6 @@
 package com.structural.flyweight.after;
 
-class MyPair { // doesn't hold the col in itself.
+public class MyPair { // doesn't hold the col in itself.
     private int row;
 
     public MyPair(int row) {

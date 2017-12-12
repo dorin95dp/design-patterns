@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-class SocketProxy implements SocketInterface {
+public class SocketProxy implements SocketInterface {
     // 1. Create a "wrapper" for a remote,
     // or expensive, or sensitive target
     private Socket socket;
@@ -24,7 +24,7 @@ class SocketProxy implements SocketInterface {
                 socket = server.accept();
             } else {
                 socket = new Socket(host, port);
-                System.out.println("Client started");
+                System.out.println("Client started...");
 
             }
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));

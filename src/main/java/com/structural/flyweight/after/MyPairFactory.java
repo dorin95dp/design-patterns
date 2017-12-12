@@ -1,6 +1,6 @@
 package com.structural.flyweight.after;
 
-class MyPairFactory {
+public class MyPairFactory {
     private MyPair[] myPairsPool;
 
     public MyPairFactory(int maxRows) {
